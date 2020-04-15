@@ -1,12 +1,18 @@
 import React from 'react';
+import { Header } from './components/Header';
+import { Balance } from './components/Balance';
+import { IncomeExpenses } from './components/IncomeExpense';
+
 import './App.css';
 
-function App() {
-  return (
-    <div>
-      
-    </div>
-  );
-}
 
-export default App;
+
+  function App() {
+    return (
+      <div>
+       <Header/>
+       </div>
+    );
+  }
+
+  export default App;
